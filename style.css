@@ -1,87 +1,56 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-:root{
-    --border:1px solid var(--color);
-    --border-R:2px;
-    --color:whitesmoke;
-    --color2:#41285ff3;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 *{
     font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
 }
-body {
+body{
     padding: 0;
     margin: 0;
-    background-color: gainsboro;
 }
-.container{
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    background-color: #45454594;
+.m1{
+    background-color: orange;
     text-align: center;
-    width: 100vw;
-    margin: 1px auto;
-    border: var(--border);
-    border-radius: 0px 0px 5px 5px;
-    position: fixed;
-    top: 0;
-    backdrop-filter: blur(2px);
+    position: relative;
+    margin: 0 auto;
 }
-#blank{
-    width: 100vw;
-    height: 12vh;
-    background-color: var(--color);
+.images{
+    border-radius: 15px;
+    width: 80vw;
+    transition: all .8s ease-in-out;
+    margin: 5vw auto;
+}
+.images:hover{
+    width: 95vw;
+    
+}
+.myid{
+   font-size: 2em;
+}
+.mycap{
+    font-size: 1.6em;
+}
+#anniversary{
+    text-align: center;
+    padding: 200px 200px 200px 200px;
     
 }
 h1{
-    color: var(--color);
-    font-weight: bold;
-    
-}
-h3{
-    color: var(--color);
+    font-size: 5em;
 }
 p{
-    color: var(--color);
-}
-span{
-    color: var(--color2);
-}
-.subtitles{
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 20px;
-    
+    font-size: 2.5em;
 }
 .love{
-    background-color: purple;
     text-align: center;
-    padding: 15px;
-    width: 100vw;
-    border: var(--border) ;
-    border-radius: var(--border-R);
-    
-}
-.memory{
+    padding-top: 10px;
     background-color: orange;
-    text-align: center;
-    padding: 0;
-    border: var(--border) ;
-    border-radius: var(--border-R);
-}
-.img-info{
-       color: var(--color2);#d-cap, 
     
 }
-.pic{
-    width: 90vw;
-    border-radius: 5px;
+span{
+    color: #41285ff3;
 }
-.pic:hover{
-    width: 98vw;
-    transition: all .8s ease;
+#subt{
    
+   margin-top: 20px;
+    color: whitesmoke;
 }
